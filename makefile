@@ -1,4 +1,4 @@
-objects = main.o input.o base.o
+objects = main.o base.o help.o
 output = base-convert
 
 ifeq ($(OS),Windows_NT)
