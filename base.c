@@ -12,8 +12,8 @@ int base_verify(char *string, int base, char *digits) {
 	return 0;
 }
 
-unsigned long long base_to_10(char *string, int base, char *digits) {
-	unsigned long long number = 0;
+base10 base_to_10(char *string, int base, char *digits) {
+	base10 number = 0;
 	for (int i = 0; string[i] != '\0'; i++) {
 		number *= base;
 		for (int j = 0; digits[j] != '\0'; j++)
@@ -25,7 +25,7 @@ unsigned long long base_to_10(char *string, int base, char *digits) {
 	return number;
 }
 
-int base_to_n(unsigned long long number, int base, char *digits, char *string, int buffermax) {
+int base_to_n(base10 number, int base, char *digits, char *string, int buffermax) {
 	int i = 0;
 	while (number > 0) {
 		if (i >= buffermax-1) {
