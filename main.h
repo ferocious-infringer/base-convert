@@ -1,5 +1,5 @@
-#ifndef index
-#define index index
+#ifndef main
+#define main main
 
 #ifndef stdio
 	#define stdio stdio

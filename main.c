@@ -1,4 +1,4 @@
-#include "index.h"
+#include "main.h"
 #include "input.h"
 #include "base.h"
 

@@ -1,2 +1,7 @@
-# base-convert
-Convert number between bases.
+#------------------------------------------------#
+# Number's base converter                        #
+# base-convert                                   #
+#------------------------------------------------#
+
+Convert number's representation between bases.
+- Currently supports binary to base36 notations.
