@@ -11,4 +11,14 @@
 	#include <string.h>
 #endif
 
+#ifndef stdarg
+	#define stdarg stdarg
+	#include <stdarg.h>
+#endif
+
+#ifndef stdlib
+	#define stdlib stdlib
+	#include <stdlib.h>
+#endif
+
 #endif
