@@ -14,7 +14,6 @@ int compare(char *, int, ...);
 
 int main(int argc, char *argv[]) {
 	char buffer[buffermax];
-	strupr(buffer);
 
 	char group = 'b';
 	char display = 'r';

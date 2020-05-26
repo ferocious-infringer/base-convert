@@ -4,10 +4,12 @@ char *help_minimal = ""
 	"""usage: base-convert [options] initial_base base... number"
 	"\n       base-convert [options] initial_base base... -a number..."
 	"\n       base-convert {-h|--help}"
-"";
+"\n";
 
-// For Vim, use :se cursorcolumn
-//                               : --------------------------------------------------
+/*
+	For Vim, use :se cursorcolumn
+	                               : --------------------------------------------------
+*/
 
 char *help_full = ""
 	"""Usage"
@@ -44,4 +46,4 @@ char *help_full = ""
 	"\n        base-convert 2 10 -a 110100100 1000101"
 	"\n    Changes the representation of the numbers '110100100' and '1000101' from"
 	"\n    base2 into base10."
-"";
+"\n";
